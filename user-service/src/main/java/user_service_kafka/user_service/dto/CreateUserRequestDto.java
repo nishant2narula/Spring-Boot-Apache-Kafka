@@ -1,0 +1,11 @@
+package user_service_kafka.user_service.dto;
+
+import lombok.Data;
+
+@Data
+public class CreateUserRequestDto {
+
+    private Long id;
+    private String name;
+    private String email;
+}
